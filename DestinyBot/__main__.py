@@ -90,12 +90,12 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/ecca402e5503f6ca482d4.mp4) ××
+➛ Try The Help Buttons Below To Know My Abilities[.](https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg) ××
 """
 
 
 HELP_STRINGS = """
-Hey there, I'm Nero Robot !
+Hey there, I'm jin Robot !
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
@@ -111,12 +111,12 @@ List of all the Modules:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Nero To Your Group",
+                            text=f"Add Ronin To Your Group",
                             url=f"https://telegram.dog/secre_swallowtailbot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/OtaKu_Gang1"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/RONIN_Fighters_Fd"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
@@ -125,13 +125,13 @@ buttons = [
                              url=f"https://telegram.dog/nero_support"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/nero_updates")
+                             url="https://t.me/RONIN_Fighters_Fd")
                      ], 
     ]
 
-GROUP_START_IMG = "https://telegra.ph/file/0c0f6806f517f98edd2f9.mp4"
+GROUP_START_IMG = "https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg"
 
-FLARE_PHOTO = "https://telegra.ph/file/5b6cde48c061a49332b6a.jpg"
+FLARE_PHOTO = ""
 
 DONATE_STRING = """Thanks For Your Support Though My Creator Doesn't Need Support Monetarily, Still Contact Him For More Info:- @lord_Nanadaime """
 
